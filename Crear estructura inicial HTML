@@ -1,2 +1,111 @@
 index.html
 
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda Web</title>
+
+    <!-- Conexión con la hoja de estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Tienda Web</h1>
+        <p>Los mejores productos para ti</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Productos</a>
+        <a href="#">Ofertas</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+
+        <!-- Sección de bienvenida -->
+        <section class="bienvenida">
+            <h2>Bienvenido a nuestra tienda</h2>
+
+            <p>
+                Encuentra productos de excelente calidad
+                a los mejores precios.
+            </p>
+        </section>
+
+        <!-- Sección de productos -->
+        <section class="productos">
+
+            <h2>Nuestros productos</h2>
+
+            <div class="contenedor-productos">
+
+                <!-- Producto 1 -->
+                <article class="producto">
+                    <div class="imagen-producto">
+                        Imagen
+                    </div>
+
+                    <h3>Producto 1</h3>
+
+                    <p>Descripción del producto.</p>
+
+                    <p class="precio">$50.000</p>
+
+                    <button>Comprar</button>
+                </article>
+
+                <!-- Producto 2 -->
+                <article class="producto">
+                    <div class="imagen-producto">
+                        Imagen
+                    </div>
+
+                    <h3>Producto 2</h3>
+
+                    <p>Descripción del producto.</p>
+
+                    <p class="precio">$75.000</p>
+
+                    <button>Comprar</button>
+                </article>
+
+                <!-- Producto 3 -->
+                <article class="producto">
+                    <div class="imagen-producto">
+                        Imagen
+                    </div>
+
+                    <h3>Producto 3</h3>
+
+                    <p>Descripción del producto.</p>
+
+                    <p class="precio">$100.000</p>
+
+                    <button>Comprar</button>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Tienda Web - Laboratorio 1</p>
+        <p>Programación Web</p>
+    </footer>
+
+</body>
+
+</html>
